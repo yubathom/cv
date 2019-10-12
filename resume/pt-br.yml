@@ -1,0 +1,249 @@
+name:
+  first: Thomas
+  last: Yuba
+about: Designer e desenvolvedor de aplicações web com foco em desenvolvimento frontend e documentação.
+position: Atualmente trabalho na promoção de dados abertos e no desenvolvimento de aplicações de participação social de projetos públicos urbanísticos da cidade de São Paulo.
+tags: design, ux, frontend, open-source, javascript, python
+
+birth:
+  year: 1985
+  location: São Paulo
+
+label:
+  experience: Experiência profissional
+  projects: Outros projetos
+  years: anos
+  nacionality: Brasileiro
+  skills: Qualificações
+  education: Educação
+  design: Design
+  developmnent: Desenvolvimento
+  devpatterns: Padrões de desenvolvimento
+  databases: Banco de dados
+  infrastructure: Infraestrutura
+  languages: Idiomas
+  opensource: Projetos Open Source
+
+experience:
+- company: São Paulo Urbanismo
+  position: Desenvoledor/Designer
+  timeperiod: Desde de Outubro de 2014
+  description: Desenvolvimento frontend de SPA/PWA's. Desenvolvimento, manutenção e documentação de API's nos padrão REST. Contribuições em projetos open source, documentação, testes e rotinas de ci.
+  website: https://github.com/spurb
+
+- company: mote.bz
+  position: UX/UI Designer. Sócio
+  timeperiod: Março de 2008 - Setembro de 2014
+  description: Desenvolvimento de protótipos e entregáveis UX/UI. Desenvolvimento frontend. Branding e consultoria de comunicação
+  website: https://mote.bz
+
+- company: Editora Abril
+  position: Trainee
+  timeperiod: Março de 2007 - Março de 2008
+  description: Desenvolvimento de aplicações web. Desenvolvimento de elementos de interface
+  website: https://abril.com.br
+
+education:
+- degree: UX Digital - Experiência do usuário em plataformas digitais
+  timeperiod: Março de 2019 - Julho de 2019
+  description: Curso de extensão em experiência do usuário em plataformas digitais
+  institution: Pontífica Universidade Católica de São Paulo (PUC-SP)
+
+- degree: Design, Design Industrial
+  timeperiod: Março de 2006 - Julho 2011
+  description: Bacharelado em Design
+  institution: Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP)
+  website: http://www.fau.usp.br/graduacao/design
+
+- degree: Design da Comunicação
+  timeperiod: Março 2010 - Março 2011
+  description: Intercâmbio acadêmico
+  institution: Faculdade de Belas Artes da Universidade do Porto (FBAUP)
+  website: https://www.fba.up.pt
+
+knowledge: Desenvolvedor javascript e python com proeficiência em meios de representação e prototipação digital.
+
+opensource:
+- name: postwoman.io
+  platform: Nuxt, vue, cypress, travis-ci
+  description: API request builder. Ajuda a criar requests para apis salvando tempo de desenvolvimento. Versão web open source do postman. Contribuo como colaborador deste projeto.
+  url: https://postwoman.io
+  repo: https://github.com/liyasthomas/postwoman
+
+- name: API Gestão Urbana SP
+  platform: PHP, Postman
+  description: API REST de contribuições de arquivos produzidos durante o processo participativo do Município de São Paulo. A api tem atendido a consultas públicas de diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo). Contribuo como mantenedor deste projeto.
+  url: https://documenter.getpostman.com/view/4136141/S1ZxbpLD?version=latest
+  repo: https://github.com/spurb/consultas-publicas-backend
+
+projects:
+- name: Participe Gestão Urbana
+  platform: Vue
+  description: Site de participação social da prefeitura de São Paulo, a princípio criado para os projetos do marco regulatório, mas adotados para diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo)
+  url: https://github.com/spurb/participe
+  repo: https://github.com/SPURB/participe
+
+- name: API Geosampa - 2o lugar em hackathona (17 equipes)
+  platform: Nodejs, Vuepress
+  description: Proposta de API do portal de dados geográficos do município de Sâo Paulo
+  url: https://gestaourbana.prefeitura.sp.gov.br/noticias/projeto-vencedor-da-hackatona-geosampa-propoe-inovacao-tecnologica-a-partir-de-construcoes-na-capital/
+  repo: https://github.com/yubathom/api-geosampa
+
+- name: Mapa da consulta PIU Setor Central
+  platform: Nodejs, open-layers
+  description: Mapa interativo da consulta pública do Projeto de Intervenção Urbana Centro
+  url: https://participe.gestaourbana.prefeitura.sp.gov.br/mapas/piu-setor-central-2/
+  repo: https://github.com/SPURB/mapa-consulta-setor-central
+
+contact:
+  email: yubathom@gmail.com
+  phone: 55 11 99638 3168
+  street: Rua Frei Caneca
+  city: São Paulo
+  github: https://github.com/yubathom
+  linkedin: https://linkedin.com/in/thomasyuba
+
+languages:
+- name: pt-br
+  level: 100
+- name: en
+  level: 80
+- name: jp
+  level: 60
+- name: es
+  level: 40
+
+skills:
+# design
+- name: UX
+  level: 60
+  group: design
+- name: Figma
+  level: 80
+  group: design
+- name: Protopie
+  level: 60
+  group: design
+- name: Photoshop
+  level: 60
+  group: design
+- name: Illustrator
+  level: 80
+  group: design
+- name: Indesign
+  level: 80
+  group: design
+# front
+- name: Javascript
+  level: 80
+  group: front
+- name: Vuejs
+  level: 80
+  group: front
+- name: Angular
+  level: 20
+  group: front
+- name: HTML
+  level: 80
+  group: front
+- name: CSS
+  level: 80
+  group: front
+- name: BEM
+  level: 60
+  group: front
+- name: Bulma CSS
+  level: 60
+  group: front
+- name: Materialize CSS
+  level: 40
+  group: front
+- name: Bootstrap
+  level: 20
+  group: front
+# tooling
+- name: Babel
+  level: 60
+  group: tooling
+- name: Chai
+  level: 20
+  group: tooling
+- name: Mocha
+  level: 40
+  group: tooling
+- name: Cypress
+  level: 80
+  group: tooling
+- name: Postman
+  level: 80
+  group: tooling
+- name: SASS
+  level: 60
+  group: tooling
+- name: Webpack
+  level: 40
+  group: tooling
+- name: Parcel
+  level: 60
+  group: tooling
+- name: Gulp
+  level: 40
+  group: tooling
+# devpattern
+- name: MVC
+  level: 40
+  group: devpattern
+- name: TDD
+  level: 60
+  group: devpattern
+- name: DRY
+  level: 40
+  group: devpattern
+# databases
+- name: MySQL
+  level: 40
+  group: databases
+- name: PostGres
+  level: 20
+  group: databases
+# backend
+- name: Bash
+  level: 40
+  group: backend
+- name: Nodejs
+  level: 60
+  group: backend
+- name: Python
+  level: 40
+  group: backend
+- name: PHP
+  level: 40
+  group: backend
+- name: Wordpress
+  level: 60
+  group: backend
+- name: Firebase
+  level: 20
+  group: backend
+- name: AWS
+  level: 20
+  group: backend
+# infra
+- name: Git
+  level: 80
+  group: infra
+- name: Apache
+  level: 20
+  group: infra
+- name: Nginx
+  level: 40
+  group: infra
+- name: Docker
+  level: 20
+  group: infra
+- name: Travis-CI
+  level: 60
+  group: infra
+- name: Netlifly-CI
+  level: 20
+  group: infra

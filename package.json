@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Thomas Yuba's resume",
+  "scripts": {
+    "dev": "node ./compiler.js && parcel src/index.html --port=3000",
+    "build": "node ./compiler.js && parcel build src/index.html --public-url .",
+    "lint": "eslint src/**/*.js --fix"
+  },
+  "homepage": "https://yubathom.github.io/cv",
+  "bugs": "https://github.com/yubathom/cv/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yubathom/cv.git"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "js-yaml": "^3.13.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.0"
+  }
+}
