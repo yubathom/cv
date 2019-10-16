@@ -80,7 +80,7 @@ projects:
 - name: Participe Gestão Urbana
   platform: Vue
   description: Site de participação social da prefeitura de São Paulo, a princípio criado para os projetos do marco regulatório, mas adotados para diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo)
-  url: https://github.com/spurb/participe
+  url: https://participe.gestaourbana.prefeitura.sp.gov.br
   repo: https://github.com/SPURB/participe
 
 - name: API Geosampa - 2o lugar em hackathona (17 equipes)

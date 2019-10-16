@@ -25,7 +25,7 @@ export default {
     let output = ''
     projects.forEach(project => {
       output += `
-      <div class='project>
+      <div class='project'>
         <h4 class='project__name'>${project.name}</h4>
         <p class='project__platform'>${project.platform}</p>
         <p class='project__description'>${project.description}</p>

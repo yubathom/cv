@@ -15,7 +15,7 @@ export default class Experience {
     let output = ''
     experiences.forEach(experience => {
       output += `
-      <div class='experience>
+      <div class='experience'>
         <h4 class='experience__name'>${experience.company}</h4>
         <p class='project__position'>${experience.position}</p>
         <p class='project__description'>${experience.description}</p>

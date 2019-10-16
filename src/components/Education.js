@@ -14,7 +14,7 @@ export default class Education {
   listCourses (courses) {
     let output = ''
     courses.forEach(course => {
-      output += `<p>
+      output += `<p class="course">
       ${course.degree}</br>
       ${course.institution}</br>
       ${course.description}</br>
