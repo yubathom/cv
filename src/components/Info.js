@@ -11,10 +11,16 @@ export default class Info {
     this.container.innerHTML = this.render()
   }
 
-  currentAge (birthYear) {
+  currentAge (birthYear, birthMonth, birthDate) {
     const now = new Date().getFullYear()
-    return now - birthYear
+    const month = new Date().getMonth()
+    const day = new Date().getDate()
+ 
+    if (month > birthMonth) return now - birthYear
+    else if (month === birthMonth && day >= birthDate) return now - birthYear
+    else return now - birthYear -1
   }
+
 
   render () {
     const c = this.cv
@@ -23,7 +29,7 @@ export default class Info {
       <h2 class='info__name'>
         ${c.name.first} ${c.name.last}
       </h2>
-      <p info__details>${c.label.nacionality}, ${this.currentAge(c.birth.year)} ${c.label.years} | São Paulo, SP</p>
+      <p info__details>${c.label.nacionality}, ${this.currentAge(c.birth.year, c.birth.month, c.birth.day)} ${c.label.years} | São Paulo, SP</p>
       <p class='info__tags'>${c.tags}</p>
       <p class="info__about">${c.about}</p>
       <div class="info__contact">
