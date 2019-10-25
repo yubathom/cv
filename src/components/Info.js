@@ -29,7 +29,7 @@ export default class Info {
       <h2 class='info__name'>
         ${c.name.first} ${c.name.last}
       </h2>
-      <p info__details>${c.label.nacionality}, ${this.currentAge(c.birth.year, c.birth.month, c.birth.day)} ${c.label.years} | São Paulo, SP</p>
+      <p calss='info__details'>${c.label.nacionality}, ${this.currentAge(c.birth.year, c.birth.month, c.birth.day)} ${c.label.years} | São Paulo, SP</p>
       <p class='info__tags'>${c.tags}</p>
       <p class="info__about">${c.about}</p>
       <div class="info__contact">

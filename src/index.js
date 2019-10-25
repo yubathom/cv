@@ -1,6 +1,7 @@
 import  * as ptbr from './pt-br.json'
 import  * as en from './en.json'
 import './main.scss'
+// import Navigation from './components/Navigation.js'
 import Skills from './components/Skills.js'
 import Info from './components/Info.js'
 import Education from './components/Education.js'
@@ -15,6 +16,7 @@ function langCheck (queryString) {
 
 document.addEventListener('DOMContentLoaded', () => {
   const content = langCheck(window.location.search)
+  // new Navigation(document.getElementById('nav'), [{'cv': content.label.cv}, {'about': content.label.about}])
   new Info(document.getElementById('info'), content)
   new Skills(document.getElementById('skills'), content)
   new Education(document.getElementById('education'), content)

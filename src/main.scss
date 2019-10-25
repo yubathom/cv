@@ -1,14 +1,67 @@
+// 0. Variables
+// 1. Base
+// 2. Layout
+// 3. Module
+// 4. State
+
+// 0. Variables
+$grotesk: 'Roboto', 'Helvetica', Arial, sans-serif;
+$serif: 'Georgia', serif;
+$gray2: #4F4F4F;
+$cyan: #2D9CDB;
+
+// 1. Base
+* { box-sizing: border-box; }
+html { margin: 0; padding: 0; }
+body {
+	color: $gray2;
+	font-family: $serif;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0;
+	a { text-decoration: none; color: $cyan; }
+	a:hover { text-decoration: underline; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $grotesk;
+	color: $gray2;
+}
+ul { list-style: none; }
+a { text-decoration: none; }
+
+// 2. Layout
+#nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-height: 80px;
+	li {
+		font-family: $grotesk;
+		font-size: 21px;
+		padding: 0 1rem;
+		min-width: 100px;
+		text-align: center
+	}
+}
+
+.container {
+	padding:0 1.5rem 
+}
+
+.container.cv {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 1.5rem;
+	max-width: 1368px;
+	margin: auto;
+}
+
+
+// 3. Module
 .block {
-	border-top: 5px solid
+	border-top: 12px solid $gray2;
 }
 
-.project, .experience, .course {
-	border-top: 2px solid;
-	padding: 0.5em 0
-}
-
-.project__platform, .project__position {
-	border-top: 1px solid grey;
-	border-bottom: 1px solid grey;
-	padding: 0.5em 0
-}
+// 4. State
