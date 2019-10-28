@@ -114,22 +114,28 @@ contact:
   github: https://github.com/yubathom
   linkedin: https://linkedin.com/in/thomasyuba
 
-languages:
-- name: pt-br
-  level: 100
-- name: en
-  level: 80
-- name: jp
-  level: 60
-- name: es
-  level: 40
-
 skills:
-# design
-- name: UX
+# languages
+- name: Inglês
+  level: 80
+  group: languages
+- name: Português
+  level: 100
+  group: languages
+- name: Japonês
   level: 60
-  group: design
+  group: languages
+- name: Espanhol
+  level: 40
+  group: languages
+  # design
 - name: Figma
+  level: 80
+  group: design
+- name: Illustrator
+  level: 80
+  group: design
+- name: Indesign
   level: 80
   group: design
 - name: Protopie
@@ -138,21 +144,12 @@ skills:
 - name: Photoshop
   level: 60
   group: design
-- name: Illustrator
-  level: 80
-  group: design
-- name: Indesign
-  level: 80
-  group: design
 # front
 - name: Javascript
   level: 80
   group: front
 - name: Vuejs
   level: 80
-  group: front
-- name: Angular
-  level: 20
   group: front
 - name: HTML
   level: 80
@@ -166,16 +163,10 @@ skills:
 - name: BEM
   level: 50
   group: front
-# tooling
-- name: Babel
-  level: 60
-  group: tooling
-- name: Chai
+- name: Angular
   level: 20
-  group: tooling
-- name: Mocha
-  level: 40
-  group: tooling
+  group: front
+# tooling
 - name: Cypress
   level: 80
   group: tooling
@@ -185,47 +176,56 @@ skills:
 - name: SASS
   level: 60
   group: tooling
-- name: Webpack
-  level: 40
+- name: Babel
+  level: 60
   group: tooling
 - name: Parcel
   level: 60
   group: tooling
+- name: Mocha
+  level: 40
+  group: tooling
 - name: Gulp
   level: 40
   group: tooling
-# devpattern
-- name: MVC
+- name: Webpack
   level: 40
-  group: devpattern
+  group: tooling
+- name: Chai
+  level: 20
+  group: tooling
+# devpattern
 - name: TDD
   level: 60
+  group: devpattern
+- name: MVC
+  level: 40
   group: devpattern
 - name: DRY
   level: 40
   group: devpattern
 # databases
 - name: MySQL
-  level: 40
+  level: 60
   group: databases
 - name: PostGreSQL
-  level: 30
+  level: 40
   group: databases
 # backend
-- name: Bash
-  level: 40
-  group: backend
 - name: Nodejs
   level: 60
   group: backend
-- name: Python
+- name: Wordpress
+  level: 50
+  group: backend
+- name: Bash
   level: 40
+  group: backend
+- name: Python
+  level: 60
   group: backend
 - name: PHP
   level: 40
-  group: backend
-- name: Wordpress
-  level: 60
   group: backend
 - name: Firebase
   level: 20
@@ -237,18 +237,28 @@ skills:
 - name: Git
   level: 80
   group: infra
-- name: Apache
-  level: 20
+- name: Travis-CI
+  level: 60
   group: infra
 - name: Nginx
+  level: 40
+  group: infra
+- name: Apache
   level: 40
   group: infra
 - name: Docker
   level: 20
   group: infra
-- name: Travis-CI
-  level: 60
-  group: infra
 - name: Netlifly-CI
   level: 20
   group: infra
+
+skillgroupcollors:
+  languages: '#C4C4C4'
+  design: '#FDCF46'
+  front: '#FFB4B4'
+  tooling: '#A0CDE0'
+  devpattern: '#C1E8CC'
+  databases: '#71AE82'
+  backend: '#AD95C5'
+  infra: '#6C6B90'

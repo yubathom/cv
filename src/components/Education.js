@@ -26,16 +26,21 @@ export default class Education {
   }
 
   render () {
-    const c = this.cv
+    const sortedSkils = this.cv.skills
+      .filter(skill => skill.group === 'languages')
+      .sort((a, b) => b.level - a.level)
+
     return `
     <div class="block__education">
-      <h3 class='education__name title'>${c.label.education}</h3>
+      <h3 class='education__name title'>${this.cv.label.education}</h3>
       <div class='education__courses'>
-        ${this.listCourses(c.education)}
+        ${this.listCourses(this.cv.education)}
       </div>
       <div class='education__langs'>
-        <h3 class='education__name'>${c.label.languages}</h3>
-        ${helper.listSkills(c.languages)}
+        <h3 class='education__name title'>${this.cv.label.languages}</h3>
+        <ul style='border-color:${this.cv.skillgroupcollors.languages}' class='skills__list languages'>
+          ${helper.listSkills(sortedSkils, this.cv.skillgroupcollors)}
+        </ul>
       </div>
     </div>
     `;

@@ -12,30 +12,29 @@ export default class Skills {
   }
 
   render () {
-    const c = this.cv
     return `
     <div class="block__skils">
-        <h3 class='skils__name title'>${c.label.skills}</h3>
-        <ul class='skills__list design'>
-          ${helper.listSkills(c.skills.filter(skill => skill.group === 'design'))}
+        <h3 class='skils__name title'>${this.cv.label.skills}</h3>
+        <ul style='border-color:${this.cv.skillgroupcollors.design}' class='skills__list design'>
+          ${helper.listSkills(this.cv.skills.filter(skill => skill.group === 'design'), this.cv.skillgroupcollors)}
         </ul>
-        <ul class='skills__list frontend'>
-          ${helper.listSkills(c.skills.filter(skill => skill.group === 'front'))}
+        <ul style='border-color:${this.cv.skillgroupcollors.front}' class='skills__list frontend'>
+          ${helper.listSkills(this.cv.skills.filter(skill => skill.group === 'front'), this.cv.skillgroupcollors)}
         </ul>
-        <ul class='skills__list tooling'>
-          ${helper.listSkills(c.skills.filter(skill => skill.group === 'tooling'))}
+        <ul style='border-color:${this.cv.skillgroupcollors.tooling}' class='skills__list tooling'>
+          ${helper.listSkills(this.cv.skills.filter(skill => skill.group === 'tooling'), this.cv.skillgroupcollors)}
         </ul>
-        <ul class='skills__list devpatterns'>
-          ${helper.listSkills(c.skills.filter(skill => skill.group === 'devpattern'))}
+        <ul style='border-color:${this.cv.skillgroupcollors.devpattern}' class='skills__list devpatterns'>
+          ${helper.listSkills(this.cv.skills.filter(skill => skill.group === 'devpattern'), this.cv.skillgroupcollors)}
         </ul>
-        <ul class='skills__list databases'>
-          ${helper.listSkills(c.skills.filter(skill => skill.group === 'databases'))}
+        <ul  style='border-color:${this.cv.skillgroupcollors.databases}' class='skills__list databases'>
+          ${helper.listSkills(this.cv.skills.filter(skill => skill.group === 'databases'), this.cv.skillgroupcollors)}
         </ul>
-        <ul class='skills__list backend'>
-          ${helper.listSkills(c.skills.filter(skill => skill.group === 'backend'))}
+        <ul style='border-color:${this.cv.skillgroupcollors.backend}' class='skills__list backend'>
+          ${helper.listSkills(this.cv.skills.filter(skill => skill.group === 'backend'), this.cv.skillgroupcollors)}
         </ul>
-        <ul class='skills__list infrastructure'>
-          ${helper.listSkills(c.skills.filter(skill => skill.group === 'infra'))}
+        <ul style='border-color:${this.cv.skillgroupcollors.infra}'class='skills__list infrastructure'>
+          ${helper.listSkills(this.cv.skills.filter(skill => skill.group === 'infra'), this.cv.skillgroupcollors)}
         </ul>
       </div>
     `;

@@ -12,22 +12,22 @@ export default {
     }
   },
   removeHttps: fullUrl => fullUrl.replace('https://', ''),
-  listSkills: skills => {
+  listSkills: (skills, colors) => {
     let output = ''
     skills.forEach(skill => {
+      const normalizedWidth = () => skill.level * 2.58
+      const height = 37
       output += `<li>
-        <span>${skill.name}<span>
-          <svg width="258" height="30" viewBox="0 0 258 30" fill="none">
-            <rect width="258" height="30" fill="#E5E5E5"/>
-            <rect width="212" height="30" fill="#FFBFBA"/>
+        <span>${skill.name}</span>
+          <svg width="258" height="${height}" viewBox="0 0 258 ${height}" fill="none">
+            <rect width="258" height="${height}" fill="#E5E5E5"/>
+            <rect width="${normalizedWidth()}" height="${height}" fill="${colors[skill.group]}"/>
           </svg>
       </li>`
     })
 // ${skill.level}/100
     return output
   },
-
-  
 
   listProjects: (projects, labels) => {
     let output = ''
