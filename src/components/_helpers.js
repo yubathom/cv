@@ -17,15 +17,13 @@ export default {
     skills.forEach(skill => {
       const normalizedWidth = () => skill.level * 2.58
       const height = 37
-      output += `<li>
-        <span>${skill.name}</span>
-          <svg width="258" height="${height}" viewBox="0 0 258 ${height}" fill="none">
-            <rect width="258" height="${height}" fill="#E5E5E5"/>
-            <rect width="${normalizedWidth()}" height="${height}" fill="${colors[skill.group]}"/>
+      output += `<li class='skills__item'>${skill.name}
+          <svg width='258' height='${height}' viewBox='0 0 258 ${height}' fill='none'>
+            <rect width='258' height='${height}' fill='#E5E5E5'/>
+            <rect width='${normalizedWidth()}' height='${height}' fill='${colors[skill.group]}'/>
           </svg>
       </li>`
     })
-// ${skill.level}/100
     return output
   },
 

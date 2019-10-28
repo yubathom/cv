@@ -17,12 +17,13 @@ label:
   years: anos
   nacionality: Brasileiro
   skills: Qualificação por área, ferramenta e nível de experiência
+  skillareas: Áreas de atuação
   education: Educação
   design: Design
   developmnent: Desenvolvimento
-  devpatterns: Padrões de desenvolvimento
+  devpattern: Padrões de desenvolvimento
   databases: Banco de dados
-  infrastructure: Infraestrutura
+  infra: Infraestrutura
   languages: Idiomas
   opensource: Projetos Open Source
   about: sobre
@@ -117,16 +118,16 @@ contact:
 skills:
 # languages
 - name: Inglês
-  level: 80
+  level: 75
   group: languages
 - name: Português
-  level: 100
+  level: 85
   group: languages
 - name: Japonês
-  level: 60
+  level: 50
   group: languages
 - name: Espanhol
-  level: 40
+  level: 20
   group: languages
   # design
 - name: Figma
@@ -225,7 +226,7 @@ skills:
   level: 60
   group: backend
 - name: PHP
-  level: 40
+  level: 50
   group: backend
 - name: Firebase
   level: 20

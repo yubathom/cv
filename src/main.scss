@@ -67,6 +67,8 @@ a { text-decoration: none; }
 }
 
 .block {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	border-top: 12px solid $darkgray;
 	h2, h3  {
 		font-style: $grotesk;
@@ -106,6 +108,14 @@ a { text-decoration: none; }
 	margin-bottom: 2rem;
 }
 
+.skills__legend {
+	border-top: 1px solid $darkwhite;
+	border-bottom: 1px solid $darkwhite;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	ul { margin-top: 0.5rem; }
+}
+
 .skills__list {
 	margin: 0;
 	padding: 0 0 0 1rem;
@@ -117,11 +127,9 @@ a { text-decoration: none; }
 		display: flex;
 		justify-content: space-between;
 		align-items: end;
-		height: 30px;
-		svg {
-			max-width: 175px;
-		}
+		svg { max-width: 175px }
 	}
+	.skills__item { height: 30px }
 }
 
 // 4. State

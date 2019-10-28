@@ -26,8 +26,8 @@
 
   try {
     listFiles('./resume/')
-    .filter(file => file.split('.').pop() === 'yml')
-    .forEach(ymlFile => compileYml(ymlFile))
+      .filter(file => file.split('.').pop() === 'yml')
+      .forEach(ymlFile => compileYml(ymlFile))
   } catch (e) {
     console.log(e);
   }
