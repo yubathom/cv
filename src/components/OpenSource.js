@@ -12,12 +12,11 @@ export default class OpenSource {
   }
 
   render () {
-    const c = this.cv
     return `
     <div class="block__opensource">
-      <h3 class='opensource__name'>${c.label.opensource}</h3>
+      <h3 class='opensource__name title'>${this.cv.label.opensource}</h3>
       <div class='opensource__projects'>
-      ${helper.listProjects(c.opensource)}
+      ${helper.listProjects(this.cv.opensource, this.cv.label)}
       </div>
     </div>
     `;

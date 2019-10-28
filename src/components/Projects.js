@@ -12,12 +12,11 @@ export default class Projects {
   }
 
   render () {
-    const c = this.cv
     return `
     <div class="block__projects">
-      <h3 class='projects__name'>${c.label.projects}</h3>
+      <h3 class='projects__name title'>${this.cv.label.projects}</h3>
       <div class='projects__projects'>
-      ${helper.listProjects(c.projects)}
+      ${helper.listProjects(this.cv.projects, this.cv.label)}
       </div>
     </div>
     `;

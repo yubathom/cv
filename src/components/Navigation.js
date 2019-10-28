@@ -17,7 +17,7 @@ export default class Navigation {
     this.sections.forEach(section => {
       const sectionClass = Object.keys(section)[0]
       const sectionValue = Object.values(section)[0]
-      output += `<li id='${sectionClass}'>${sectionValue}</li>`
+      output += `<li class='nav__item nav__item--${sectionClass}'>${sectionValue}</li>`
     })
     return output
   }

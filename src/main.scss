@@ -1,31 +1,36 @@
+// Index (based on SMACSS -> http://smacss.com/book/categorizing)
 // 0. Variables
 // 1. Base
 // 2. Layout
 // 3. Module
+// 3.1. Module exceptions
 // 4. State
+// 5. Theme
 
 // 0. Variables
 $grotesk: 'Roboto', 'Helvetica', Arial, sans-serif;
 $serif: 'Georgia', serif;
-$gray2: #4F4F4F;
+$darkwhite: #BDBDBD;
+$lightgray: #828282;
+$darkgray: #4F4F4F;
 $cyan: #2D9CDB;
 
 // 1. Base
 * { box-sizing: border-box; }
 html { margin: 0; padding: 0; }
 body {
-	color: $gray2;
+	background-color: white;
+	color: $darkgray;
 	font-family: $serif;
-	font-size: 16px;
+	font-size: 0.9rem;
 	line-height: 1.6;
 	margin: 0;
 	a { text-decoration: none; color: $cyan; }
-	a:hover { text-decoration: underline; }
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $grotesk;
-	color: $gray2;
+	color: $darkgray;
 }
 ul { list-style: none; }
 a { text-decoration: none; }
@@ -37,6 +42,21 @@ a { text-decoration: none; }
 	justify-content: center;
 	align-items: center;
 	min-height: 80px;
+}
+
+.container {
+	padding:0 1.5rem;
+	margin: auto;
+}
+
+#cv {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 1.5rem;
+}
+
+// 3. Module
+#nav {
 	li {
 		font-family: $grotesk;
 		font-size: 21px;
@@ -46,22 +66,57 @@ a { text-decoration: none; }
 	}
 }
 
-.container {
-	padding:0 1.5rem 
-}
-
-.container.cv {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	grid-gap: 1.5rem;
-	max-width: 1368px;
-	margin: auto;
-}
-
-
-// 3. Module
 .block {
-	border-top: 12px solid $gray2;
+	border-top: 12px solid $darkgray;
+	h2, h3  {
+		font-style: $grotesk;
+		font-weight: normal;
+		font-size: 1.5rem
+	}
+}
+
+.tags {
+	color: $lightgray;
+	border-top: 1px solid $darkwhite;
+	border-bottom: 1px solid $darkwhite;
+	padding: 1rem 0;
+}
+
+.project__name,
+.info__details,
+.course__details {
+	border-top: 4px solid $darkwhite;
+	padding-top: 1rem;
+}
+
+.info__details,
+.course__details {
+	font-family: $serif;
+	font-weight: normal;
+}
+
+.course__details {
+	border-bottom: 1px solid $darkwhite;
+	padding: 1.1rem 0;
+}
+
+.project,
+.course,
+.experience {
+	margin-bottom: 2rem;
+}
+
+.skills__list {
+	margin: 0;
+	padding: 0 0 0 1.5rem;
+	border-left: 3em solid;
+	border-bottom: 0;
+	font-family: $grotesk;
+	font-size: 0.9rem;
+	li {
+		height: 30px;
+	}
 }
 
 // 4. State
+a:hover { text-decoration: underline; }

@@ -16,27 +16,33 @@ export default {
     let output = ''
     skills.forEach(skill => {
       output += `<li>
-        ${skill.name} | ${skill.level}/100
+        <span>${skill.name}<span>
+          <svg width="258" height="30" viewBox="0 0 258 30" fill="none">
+            <rect width="258" height="30" fill="#E5E5E5"/>
+            <rect width="212" height="30" fill="#FFBFBA"/>
+          </svg>
       </li>`
     })
+// ${skill.level}/100
     return output
   },
-  listProjects: projects => {
+
+  
+
+  listProjects: (projects, labels) => {
     let output = ''
     projects.forEach(project => {
       output += `
       <div class='project'>
         <h4 class='project__name'>${project.name}</h4>
-        <p class='project__platform'>${project.platform}</p>
+        <p class='project__platform tags'><em>${project.platform}</em></p>
         <p class='project__description'>${project.description}</p>
-        <p class='project__url'>
-          url </br>
-          <a href="${project.url}">${project.url.replace('https://', '')}</a>
-        </p>
-        <p class='project__repo'>
-          repo </br>
-          <a href="${project.repo}">${project.repo}</a>
-        </p>
+        <p>
+        <span class=''project__url'>
+          ${labels.project} <a href="${project.url}">${project.display}</a><br>
+        <span class='project__repo'>
+          ${labels.repository} <a href="${project.repo}">${project.repo.replace('https://github.com/', '@').toLowerCase()}</a>
+        </span>
       </div>
       `
     })

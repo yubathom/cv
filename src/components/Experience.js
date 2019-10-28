@@ -16,8 +16,8 @@ export default class Experience {
     experiences.forEach(experience => {
       output += `
       <div class='experience'>
-        <h4 class='experience__name'>${experience.company}</h4>
-        <p class='project__position'>${experience.position}</p>
+        <h4 class='project__name title'>${experience.company}</h4>
+        <p class='project__position tags'><em>${experience.position}</em></p>
         <p class='project__description'>${experience.description}</p>
         <p class='project__timeperiod'>${experience.timeperiod}</p>
         <p class='project__website'>

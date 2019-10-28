@@ -14,12 +14,13 @@ export default class Education {
   listCourses (courses) {
     let output = ''
     courses.forEach(course => {
-      output += `<p class="course">
-      ${course.degree}</br>
-      ${course.institution}</br>
-      ${course.description}</br>
-      ${course.timeperiod}</br>
-    </p>`
+      output += `
+      <div class='course'>
+        <h4 class='course__details'>${course.degree}</h4>
+        <p>${course.timeperiod}</p>
+        <p>${course.institution}</p>
+        <p>${course.description}</p>
+      </div>`
     })
     return output
   }
@@ -28,7 +29,7 @@ export default class Education {
     const c = this.cv
     return `
     <div class="block__education">
-      <h3 class='education__name'>${c.label.education}</h3>
+      <h3 class='education__name title'>${c.label.education}</h3>
       <div class='education__courses'>
         ${this.listCourses(c.education)}
       </div>
