@@ -1,8 +1,8 @@
 name:
   first: Thomas
   last: Yuba
-about: Designer and developer of web applications especialized on frontend development and documentation # Designer e desenvolvedor de aplicações web com foco em desenvolvimento frontend e documentação
-position: Atualmente trabalho na promoção de dados abertos e no desenvolvimento de aplicações de participação social de projetos públicos urbanísticos da cidade de São Paulo.
+about: Designer and developer of web applications especialized on frontend development and documentation
+position: Currently working advocating in government open data policies and in the development of web application for civic participation platforms in public urban planning support at São Paulo city. # Atualmente trabalho na promoção de dados abertos e no desenvolvimento de aplicações de participação social de projetos públicos urbanísticos da cidade de São Paulo.
 tags: Design, ux, frontend, open-source, javascript, python
 
 birth:
@@ -13,29 +13,29 @@ birth:
 
 label:
   experience: Experience
-  projects: Outros projetos
-  years: anos
-  nacionality: Brasileiro
-  skills: Qualificação por área, ferramenta e nível de experiência
-  skillareas: Áreas de atuação
-  education: Educação
+  projects: Other projects
+  years: years
+  nacionality: Brazilian
+  skills: Skillset, tools and experience levels  # Qualificação por área, ferramenta e nível de experiência
+  skillareas: Skillset
+  education: Education
   design: Design
-  developmnent: Desenvolvimento
-  devpattern: Padrões de desenvolvimento
-  databases: Banco de dados
-  infra: Infraestrutura
-  languages: Idiomas
-  opensource: Projetos Open Source
-  about: sobre
-  cv: currículo
-  project: projeto
-  repository: repositório
+  developmnent: Development
+  devpattern: Develpment patterns
+  databases: Databases
+  infra: infrastructure
+  languages: Languages
+  opensource: Open Source projects
+  about: about
+  cv: resume
+  project: project
+  repository: repo
 
 experience:
 - company: São Paulo Urbanismo
   position: Assessor. Frontend, backend, ux, ui
-  timeperiod: Desde de Outubro de 2014
-  description: Desenvolvimento frontend de SPA/PWA's. Desenvolvimento, manutenção e documentação de API's nos padrão REST. Contribuições em projetos open source, documentação, testes e rotinas de ci.
+  timeperiod: Since October 2014 # Desde de Outubro de 2014
+  description: SPA/PWA frontend development. REST API's development, maintenance and documentation. Contribuitions to open source prjects. Tests and continuous integration setups for frontend projects.
   website: https://github.com/spurb
 
 - company: mote.bz
@@ -115,151 +115,3 @@ contact:
   github: https://github.com/yubathom
   linkedin: https://linkedin.com/in/thomasyuba
 
-skills:
-# languages
-- name: Inglês
-  level: 80
-  group: languages
-- name: Português
-  level: 100
-  group: languages
-- name: Japonês
-  level: 50
-  group: languages
-- name: Espanhol
-  level: 20
-  group: languages
-  # design
-- name: Figma
-  level: 80
-  group: design
-- name: Illustrator
-  level: 80
-  group: design
-- name: Indesign
-  level: 80
-  group: design
-- name: Protopie
-  level: 60
-  group: design
-- name: Photoshop
-  level: 60
-  group: design
-# front
-- name: Javascript
-  level: 80
-  group: front
-- name: Vuejs
-  level: 80
-  group: front
-- name: HTML
-  level: 80
-  group: front
-- name: CSS
-  level: 75
-  group: front
-- name: SMACSS
-  level: 65
-  group: front
-- name: BEM
-  level: 50
-  group: front
-- name: Angular
-  level: 20
-  group: front
-# tooling
-- name: Cypress
-  level: 80
-  group: tooling
-- name: Postman
-  level: 80
-  group: tooling
-- name: SASS
-  level: 60
-  group: tooling
-- name: Babel
-  level: 60
-  group: tooling
-- name: Parcel
-  level: 60
-  group: tooling
-- name: Mocha
-  level: 40
-  group: tooling
-- name: Gulp
-  level: 40
-  group: tooling
-- name: Webpack
-  level: 40
-  group: tooling
-- name: Chai
-  level: 20
-  group: tooling
-# devpattern
-- name: TDD
-  level: 60
-  group: devpattern
-- name: MVC
-  level: 40
-  group: devpattern
-- name: DRY
-  level: 40
-  group: devpattern
-# databases
-- name: MySQL
-  level: 60
-  group: databases
-- name: PostGreSQL
-  level: 40
-  group: databases
-# backend
-- name: Nodejs
-  level: 60
-  group: backend
-- name: Wordpress
-  level: 50
-  group: backend
-- name: Bash
-  level: 40
-  group: backend
-- name: Python
-  level: 60
-  group: backend
-- name: PHP
-  level: 50
-  group: backend
-- name: Firebase
-  level: 20
-  group: backend
-- name: AWS
-  level: 20
-  group: backend
-# infra
-- name: Git
-  level: 80
-  group: infra
-- name: Travis-CI
-  level: 60
-  group: infra
-- name: Nginx
-  level: 40
-  group: infra
-- name: Apache
-  level: 40
-  group: infra
-- name: Docker
-  level: 20
-  group: infra
-- name: Netlifly-CI
-  level: 20
-  group: infra
-
-skillgroupcollors:
-  languages: '#C4C4C4'
-  design: '#FDCF46'
-  front: '#FFB4B4'
-  tooling: '#A0CDE0'
-  devpattern: '#C1E8CC'
-  databases: '#71AE82'
-  backend: '#AD95C5'
-  infra: '#6C6B90'

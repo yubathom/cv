@@ -30,11 +30,10 @@ export default class Experience {
   }
 
   render () {
-    const c = this.cv
     return `
     <div class="block__experience">
-      <h3 class='experience__title'>${c.label.experience}</h3>
-      ${this.listExperiences(c.experience)}
+      <h3 class='experience__title'>${this.cv.label.experience}</h3>
+      ${this.listExperiences(this.cv.experience)}
     </div>
     `;
   }
