@@ -3,7 +3,6 @@
 // 1. Base
 // 2. Layout
 // 3. Module
-// 3.1. Module exceptions
 // 4. State
 // 5. Theme
 
@@ -14,6 +13,7 @@ $darkwhite: #BDBDBD;
 $lightgray: #828282;
 $darkgray: #4F4F4F;
 $cyan: #2D9CDB;
+$one-column: 672px;
 
 // 1. Base
 * { box-sizing: border-box; }
@@ -32,8 +32,32 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $grotesk;
 	color: $darkgray;
 }
-ul { list-style: none; }
-a { text-decoration: none; }
+ol, ul { 
+	list-style: none;
+	padding: 0
+}
+li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a { text-decoration: non; }
+
+button {
+	background: none repeat scroll 0 0 transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:white;
+	color: $darkgray;
+	font-family: $grotesk;
+	font-size: 1rem;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.75rem;
+	border: 1px solid $darkgray;
+}
+
 
 // 2. Layout
 #nav {
@@ -132,5 +156,39 @@ a { text-decoration: none; }
 	.skills__item { height: 30px }
 }
 
-// 4. State
-a:hover { text-decoration: underline; }
+#actions {
+	margin: 2rem;
+	padding: 0;
+}
+
+.action__item {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+.action__item__btn {
+	width: 50%;
+	&:hover {
+		color: white;
+		background-color: $darkgray;
+		cursor: pointer;
+		transition: all 250ms ease-out;
+		svg {
+			fill: white;
+			transition-delay: 100ms;
+			transition: fill 250ms ease-out;
+		}
+	}
+	&:active {
+		position:relative;
+		top:1px;
+	}
+	svg {
+		fill: $darkgray;
+		margin-left: 0.35rem;
+	}
+	@media (max-width: $one-column) {
+		width: 100%
+	}
+}

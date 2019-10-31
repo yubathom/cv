@@ -1,4 +1,4 @@
-import helper from './_helpers.js'
+import helper from './_mixins.js'
 
 export default class Info {
   constructor(container, content) {

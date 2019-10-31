@@ -83,10 +83,10 @@ skills:
   level: 60
   group: devpattern
 - name: MVC
-  level: 40
+  level: 60
   group: devpattern
 - name: DRY
-  level: 40
+  level: 50
   group: devpattern
 # databases
 - name: MySQL

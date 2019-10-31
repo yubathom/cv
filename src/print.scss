@@ -8,7 +8,7 @@ $cyan: #2D9CDB;
 
 @media print {
   @page { 
-    margin: 2cm;
+    margin: 2cm 2cm 1cm;
   }
 }
 
@@ -82,10 +82,11 @@ a { text-decoration: none; }
     margin: 0
 }
 
-.education__langs {
+.education__langs,
+#actions
+{
     display: none;
 }
-
 
 .project,
 .course,
@@ -95,14 +96,24 @@ a { text-decoration: none; }
 
 .block__skills {
     columns: 2;
+    padding-top: 2mm;
 }
 
+.skill_name {
+  margin-top: 0
+}
+
+
 .skills__legend {
-  border-top: 1mm solid $darkwhite;
-  border-bottom: 1mm solid $darkwhite;
-  padding-bottom: 1mm;
-  margin-bottom: 1mm;
-  // ul { margin-top: 0.5mm; }
+  border-top: 1pt solid $darkwhite;
+  border-bottom: 1pt solid $darkwhite;
+  padding-bottom: 2mm;
+  margin-bottom: 2mm;
+  h4 {
+    margin-top:1mm;
+    margin-bottom: 1mm;
+  }
+  ul { margin-top: 2mm; }
 }
 
 .skills__list {
@@ -118,8 +129,9 @@ a { text-decoration: none; }
     align-items: end;
   }
   .skills__item {
-    height: 12pt;
-    svg { 
+    margin: 3pt;
+    height: 21pt;
+    svg {
       width: 43mm;
       padding-top:1pt
     }

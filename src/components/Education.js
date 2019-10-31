@@ -1,4 +1,4 @@
-import helper from './_helpers.js'
+import helper from './_mixins.js'
 
 export default class Education {
   constructor(container, cv) {
@@ -12,17 +12,15 @@ export default class Education {
   }
 
   listCourses (courses) {
-    let output = ''
-    courses.forEach(course => {
-      output += `
-      <div class='course'>
+    const output = courses.map(course => {
+      return `<div class='course'>
         <h4 class='course__details'>${course.degree}</h4>
         <p>${course.timeperiod}</p>
         <p>${course.institution}</p>
         <p>${course.description}</p>
       </div>`
     })
-    return output
+    return output.join('')
   }
 
   render () {

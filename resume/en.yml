@@ -2,7 +2,7 @@ name:
   first: Thomas
   last: Yuba
 about: Designer and developer of web applications especialized on frontend development and documentation
-position: Currently working advocating in government open data policies and in the development of web application for civic participation platforms in public urban planning support at São Paulo city. # Atualmente trabalho na promoção de dados abertos e no desenvolvimento de aplicações de participação social de projetos públicos urbanísticos da cidade de São Paulo.
+position: Currently working advocating in government open data policies and in the development of web application for civic participation platforms in public urban planning support at São Paulo city.
 tags: Design, ux, frontend, open-source, javascript, python
 
 birth:
@@ -31,29 +31,32 @@ label:
   project: project
   repository: repo
 
+actions:
+- print: Print
+
 experience:
-- company: São Paulo Urbanismo
+- company: São Paulo Urbanism
   position: Assessor. Frontend, backend, ux, ui
   timeperiod: Since October 2014 # Desde de Outubro de 2014
   description: SPA/PWA frontend development. REST API's development, maintenance and documentation. Contribuitions to open source prjects. Tests and continuous integration setups for frontend projects.
   website: https://github.com/spurb
 
 - company: mote.bz
-  position: Sócio. Frontend, ux, ui, branding
-  timeperiod: Março de 2008 - Setembro de 2014
-  description: Desenvolvimento de protótipos e entregáveis UX/UI. Desenvolvimento frontend. Branding e consultoria de comunicação
+  position: Founder. Frontend, ux, ui, branding
+  timeperiod: March 2008 - September de 2014
+  description: UX, UI, prototype development. Frontend development, branding and comunication consultancy.
   website: https://mote.bz
 
-- company: Editora Abril
+- company: Abril (publishing company)
   position: Trainee. Frontend, ui
-  timeperiod: Março de 2007 - Março de 2008
-  description: Desenvolvimento de aplicações web. Desenvolvimento de elementos de interface
+  timeperiod: March 2007 - March 2008
+  description: Web app development. UI design and development
   website: https://abril.com.br
 
 education:
-- degree: Experiência do usuário em plataformas digitais
-  timeperiod: Março de 2019 - Julho de 2019
-  description: Curso de extensão em experiência do usuário (UX) em plataformas digitais
+- degree: User experience in digital media # Experiência do usuário em plataformas digitais
+  timeperiod: March 2019 - July 2019
+  description: User Experience Extension Course # Curso de extensão em experiência do usuário (UX) em plataformas digitais
   institution: Pontífica Universidade Católica de São Paulo (PUC-SP)
 
 - degree: Design, desenho industrial, programação visual

@@ -13,24 +13,22 @@ export default {
   },
   removeHttps: fullUrl => fullUrl.replace('https://', ''),
   listSkills: (skills, colors) => {
-    let output = ''
-    skills.forEach(skill => {
+    const lists = skills.map(skill => {
       const normalizedWidth = () => skill.level * 2.58
       const height = 37
-      output += `<li class='skills__item'>${skill.name}
+      return `<li class='skills__item'>${skill.name}
           <svg width='258' height='${height}' viewBox='0 0 258 ${height}' fill='none'>
             <rect width='258' height='${height}' fill='#E5E5E5'/>
             <rect width='${normalizedWidth()}' height='${height}' fill='${colors[skill.group]}'/>
           </svg>
       </li>`
     })
-    return output
+    return lists.join('')
   },
 
   listProjects: (projects, labels) => {
-    let output = ''
-    projects.forEach(project => {
-      output += `
+    const divs = projects.map(project => {
+      return `
       <div class='project'>
         <h4 class='project__name'>${project.name}</h4>
         <p class='project__platform tags'><em>${project.platform}</em></p>
@@ -44,6 +42,6 @@ export default {
       </div>
       `
     })
-    return output
+    return divs.join('')
   }
 }

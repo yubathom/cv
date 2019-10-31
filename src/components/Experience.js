@@ -1,4 +1,4 @@
-import helper from './_helpers.js'
+import helper from './_mixins.js'
 
 export default class Experience {
   constructor(container, cv) {
@@ -12,9 +12,8 @@ export default class Experience {
   }
 
   listExperiences(experiences) {
-    let output = ''
-    experiences.forEach(experience => {
-      output += `
+    const divs = experiences.map(experience => {
+      return `
       <div class='experience'>
         <h4 class='project__name title'>${experience.company}</h4>
         <p class='project__position tags'><em>${experience.position}</em></p>
@@ -26,7 +25,7 @@ export default class Experience {
       </div>
       `
     })
-    return output
+    return divs.join('')
   }
 
   render () {

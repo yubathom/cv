@@ -1,4 +1,4 @@
-import helper from './_helpers.js'
+import helper from './_mixins.js'
 
 export default class Navigation {
   constructor(container, sections) {
@@ -12,14 +12,12 @@ export default class Navigation {
   }
 
   render () {
-    let output = ''
-    let isFirst = true
-    this.sections.forEach(section => {
+    const navitems = this.sections.map(section => {
       const sectionClass = Object.keys(section)[0]
       const sectionValue = Object.values(section)[0]
-      output += `<li class='nav__item nav__item--${sectionClass}'>${sectionValue}</li>`
+      return `<li class='nav__item nav__item--${sectionClass}'>${sectionValue}</li>`
     })
-    return output
+    return navitems.join('')
   }
 }
 

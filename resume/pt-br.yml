@@ -31,6 +31,9 @@ label:
   project: projeto
   repository: repositório
 
+actions:
+- print: Imprimir
+
 experience:
 - company: São Paulo Urbanismo
   position: Assessor. Frontend, backend, ux, ui
