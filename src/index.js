@@ -1,7 +1,6 @@
 import * as ptbr from './pt-br.json'
 import * as en from './en.json'
 import * as skills from './skills.json'
-import './main.scss'
 // import Navigation from './components/Navigation.js'
 import Skills from './components/Skills.js'
 import Info from './components/Info.js'

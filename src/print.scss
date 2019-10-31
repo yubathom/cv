@@ -1,0 +1,127 @@
+// 0. Variables
+$grotesk: 'Roboto', 'Helvetica', Arial, sans-serif;
+$serif: 'Georgia', serif;
+$darkwhite: #BDBDBD;
+$lightgray: #828282;
+$darkgray: #4F4F4F;
+$cyan: #2D9CDB;
+
+@media print {
+  @page { 
+    margin: 2cm;
+  }
+}
+
+// 1. Base
+* { box-sizing: border-box; }
+html { margin: 0; padding: 0; }
+body {
+  background-color: white;
+  color: $darkgray;
+  font-family: $serif;
+  font-size: 12pt;
+  line-height: 1.6;
+  margin: 0;
+  a { text-decoration: none; color: $cyan; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $grotesk;
+  color: $darkgray;
+}
+ul { list-style: none; }
+a { text-decoration: none; }
+
+// 2. Layout
+.container {
+  padding:0 1.5mm;
+  margin: auto;
+}
+
+// 3. Module
+#nav { display: none }
+
+.block {
+  margin-top: 0.8mm;
+  margin-bottom: 0.8mm;
+  border-top: 2mm solid $darkgray;
+  page-break-after: always;
+  h2, h3  {
+    font-style: $grotesk;
+    font-weight: normal;
+    font-size: 18pt
+  }
+}
+
+.tags {
+  color: $lightgray;
+  border-top: 0.1pt solid $darkwhite;
+  border-bottom: 0.1pt solid $darkwhite;
+  padding: 2mm 0;
+}
+
+.project__name,
+.info__details,
+.course__details {
+  border-top: 0.5mm solid $darkwhite;
+  padding-top: 3mm;
+}
+
+.info__details,
+.course__details {
+  font-family: $serif;
+  font-weight: normal;
+}
+
+.course__details {
+  border-bottom: 0.1mm solid $darkwhite;
+  padding: 3mm 0;
+}
+
+.block__education p {
+    margin: 0
+}
+
+.education__langs {
+    display: none;
+}
+
+
+.project,
+.course,
+.experience {
+  margin-bottom: 2mm;
+}
+
+.block__skills {
+    columns: 2;
+}
+
+.skills__legend {
+  border-top: 1mm solid $darkwhite;
+  border-bottom: 1mm solid $darkwhite;
+  padding-bottom: 1mm;
+  margin-bottom: 1mm;
+  // ul { margin-top: 0.5mm; }
+}
+
+.skills__list {
+  margin: 0;
+  border-left: 3mm solid;
+  border-bottom: 0;
+  font-family: $grotesk;
+  font-size: 10pt;
+  li {
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .skills__item {
+    height: 12pt;
+    svg { 
+      width: 43mm;
+      padding-top:1pt
+    }
+  }
+}

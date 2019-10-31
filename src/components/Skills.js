@@ -19,7 +19,7 @@ export default class Skills {
 
   render () {
     return `
-    <div class="block__skils">
+    <div class="block__skills">
         <h3 class='skills__name title'>${this.cv.label.skills}</h3>
 
         <div class='skills__legend'>
