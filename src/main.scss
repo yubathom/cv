@@ -1,10 +1,7 @@
-// Index (based on SMACSS -> http://smacss.com/book/categorizing)
 // 0. Variables
 // 1. Base
 // 2. Layout
 // 3. Module
-// 4. State
-// 5. Theme
 
 // 0. Variables
 $grotesk: 'Roboto', 'Helvetica', Arial, sans-serif;
@@ -115,8 +112,7 @@ button {
 	padding-top: 1rem;
 }
 
-.info__details,
-.course__details {
+.info__details {
 	font-family: $serif;
 	font-weight: normal;
 }
@@ -157,18 +153,23 @@ button {
 }
 
 #actions {
-	margin: 2rem;
-	padding: 0;
+	padding: 1.5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 1rem;
+	@media (max-width: $one-column) {
+		grid-template-columns: 1fr;
+		grid-row-gap: 1rem;
+	}
 }
 
 .action__item {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 1rem;
 }
 
 .action__item__btn {
-	width: 50%;
+	width: 100%;
 	&:hover {
 		color: white;
 		background-color: $darkgray;
@@ -188,7 +189,13 @@ button {
 		fill: $darkgray;
 		margin-left: 0.35rem;
 	}
-	@media (max-width: $one-column) {
-		width: 100%
+	&.disabled {
+		color: white;
+		cursor:unset;
+		border:0;
+		background-color: $darkwhite;
+		svg { fill: white }
 	}
+	
 }
+

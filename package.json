@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node ./compiler.js && parcel src/index.html --port=3000",
     "build": "node ./compiler.js && parcel build src/index.html --public-url .",
-    "lint": "eslint src/**/*.js --fix"
+    "lint": "eslint src/**/*.js --fix",
+    "doc": "node compiler"
   },
   "homepage": "https://yubathom.github.io/cv",
   "bugs": "https://github.com/yubathom/cv/issues",

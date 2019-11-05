@@ -32,11 +32,13 @@ label:
   repository: repo
 
 actions:
+- translate: Português
 - print: Print
+- share: Copy this url
 
 experience:
 - company: São Paulo Urbanism
-  position: Assessor. Frontend, backend, ux, ui
+  position: Consultant. Frontend, backend, ux, ui
   timeperiod: Since October 2014 # Desde de Outubro de 2014
   description: SPA/PWA frontend development. REST API's development, maintenance and documentation. Contribuitions to open source prjects. Tests and continuous integration setups for frontend projects.
   website: https://github.com/spurb
@@ -44,31 +46,31 @@ experience:
 - company: mote.bz
   position: Founder. Frontend, ux, ui, branding
   timeperiod: March 2008 - September de 2014
-  description: UX, UI, prototype development. Frontend development, branding and comunication consultancy.
+  description: UX, UI, prototype development. Frontend, branding and comunication consultancy.
   website: https://mote.bz
 
 - company: Abril (publishing company)
   position: Trainee. Frontend, ui
   timeperiod: March 2007 - March 2008
-  description: Web app development. UI design and development
+  description: Web design and development. UI design and frontend
   website: https://abril.com.br
 
 education:
-- degree: User experience in digital media # Experiência do usuário em plataformas digitais
+- degree: User experience in digital media
   timeperiod: March 2019 - July 2019
-  description: User Experience Extension Course # Curso de extensão em experiência do usuário (UX) em plataformas digitais
-  institution: Pontífica Universidade Católica de São Paulo (PUC-SP)
+  description: User experience extension course
+  institution: The Pontifical Catholic University of São Paulo (PUC-SP)
 
-- degree: Design, desenho industrial, programação visual
-  timeperiod: Março de 2006 - Julho 2011
-  description: Bacharelado em Design
-  institution: Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP)
+- degree: Industrial and visual design
+  timeperiod: March 2006 - July 2011
+  description: Bachelor of Design
+  institution: School of Architecture and Urbanism at the University of São Paulo (FAU-USP)
   website: http://www.fau.usp.br/graduacao/design
 
-- degree: Design da Comunicação
-  timeperiod: Março 2010 - Março 2011
-  description: Intercâmbio acadêmico
-  institution: Faculdade de Belas Artes da Universidade do Porto (FBAUP)
+- degree: Communication design
+  timeperiod: March 2010 - March 2011
+  description: Academic exchange
+  institution: The Faculty of Fine Arts of Porto (FBAUP)
   website: https://www.fba.up.pt
 
 knowledge: Desenvolvedor javascript e python com proeficiência em meios de representação e prototipação digital.
@@ -76,37 +78,37 @@ knowledge: Desenvolvedor javascript e python com proeficiência em meios de repr
 opensource:
 - name: postwoman.io
   platform: Nuxt, vue, cypress, travis-ci
-  description: API request builder. Ajuda a criar requests para apis salvando tempo de desenvolvimento. Versão web open source do postman. Contribuo como colaborador deste projeto.
+  description: API request builder. A free open source webapp alternative to Postman. It helps create requests for API's. I contribute as a collaborator of this project.
   display: postwoman
   url: https://postwoman.io
   repo: https://github.com/liyasthomas/postwoman
 
-- name: API Gestão Urbana SP
+- name: São Paulo Urban Management API
   platform: Postman, php com OOP, open api
-  description: API REST de contribuições de arquivos produzidos durante o processo participativo do Município de São Paulo. A api tem atendido a consultas públicas de diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo). Contribuo como mantenedor deste projeto.
-  display: documentação
+  description: A REST API produced during the participatory process of the Municipality of São Paulo. This API has attended public consultations of various organizations of the municipality, including SMC (Culture), SMT (Transport), SMIT (Technology), SECOM (Communication) and SMDU (Urbanism). I contribute as maintainer of this project.
+  display: documentation (portuguese)
   url: https://documenter.getpostman.com/view/4136141/S1ZxbpLD?version=latest
   repo: https://github.com/spurb/consultas-publicas-backend
 
 projects:
-- name: Participe Gestão Urbana
+- name: São Paulo Participatory web app
   platform: Vue, cypress, netlifly-ci
-  description: Site de participação social da prefeitura de São Paulo, a princípio criado para os projetos do marco regulatório, mas adotados para diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo)
-  display: participe.prefeitura
+  description: Social participation site of the city of São Paulo, initially created for regulatory framework projects (PIU), but adopted for various organizations of the municipality.
+  display: participe
   url: https://participe.gestaourbana.prefeitura.sp.gov.br
   repo: https://github.com/SPURB/participe
 
-- name: API Geosampa
+- name: Geosampa API
   platform: Vue, vuepress, json-server
-  description: Proposta de API do portal de dados geográficos do município de Sâo Paulo. 2º lugar em hackathona (17 equipes)
-  display: documentação
+  description: API proposal of the geographic data portal of the municipality of São Paulo. 2nd place in hackathona (17 teams)
+  display: news
   url: https://gestaourbana.prefeitura.sp.gov.br/noticias/projeto-vencedor-da-hackatona-geosampa-propoe-inovacao-tecnologica-a-partir-de-construcoes-na-capital/
   repo: https://github.com/yubathom/api-geosampa
 
-- name: Mapa da consulta PIU Setor Central
+- name: Participatory map of São Paulo city center
   platform: Nodejs, open layers
-  description: Mapa interativo da consulta pública do Projeto de Intervenção Urbana Centro
-  display: mapas/piu-setor-central
+  description: Interactive map of the public consultation of urban intervention project
+  display: maps/piu-setor-central
   url: https://participe.gestaourbana.prefeitura.sp.gov.br/mapas/piu-setor-central-2/
   repo: https://github.com/SPURB/mapa-consulta-setor-central
 

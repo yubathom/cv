@@ -11,7 +11,7 @@ import Actions from './components/Actions.js'
 
 function langCheck (queryString) {
   const urlParams = new URLSearchParams(queryString)
-  return urlParams.get('lang') === 'en' ? en : ptbr
+  return urlParams.get('lang') === 'en' ? 'en' : 'ptbr'
 }
 
 function addSkills (skills, content) {
@@ -21,12 +21,14 @@ function addSkills (skills, content) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const content = langCheck(window.location.search)
+  const currentLang = langCheck(window.location.search)
+  const content = currentLang === 'en' ? en : ptbr
+
   new Info(document.getElementById('info'), content)
   new Skills(document.getElementById('skills'), addSkills(skills, content))
   new Education(document.getElementById('education'), addSkills(skills, content))
   new OpenSource(document.getElementById('open-source'), content)
   new Projects(document.getElementById('projects'), content)
   new Experience(document.getElementById('experience'), content)
-  new Actions(document.getElementById('actions'), content.actions)
+  new Actions(document.getElementById('actions'), content.actions, currentLang)
 })

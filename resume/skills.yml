@@ -1,7 +1,7 @@
 skills:
 # languages
 - name: Inglês
-  level: 75
+  level: 70
   group: languages
 - name: Português
   level: 85
@@ -10,7 +10,7 @@ skills:
   level: 50
   group: languages
 - name: Espanhol
-  level: 20
+  level: 15
   group: languages
   # design
 - name: Figma
@@ -138,11 +138,11 @@ skills:
   group: infra
 
 skillgroupcollors:
-  languages: '#C4C4C4'
-  design: '#FDCF46'
-  front: '#FFB4B4'
-  tooling: '#A0CDE0'
-  devpattern: '#C1E8CC'
+  languages: '#D5D5D6'
+  design: '#FBD462'
+  front: '#EBA5A5'
+  tooling: '#A3CDE0'
+  devpattern: '#AFD2B9'
   databases: '#71AE82'
   backend: '#AD95C5'
   infra: '#6C6B90'

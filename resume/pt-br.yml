@@ -32,7 +32,9 @@ label:
   repository: repositório
 
 actions:
+- translate: English
 - print: Imprimir
+- share: Copie esta url
 
 experience:
 - company: São Paulo Urbanismo
