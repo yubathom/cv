@@ -3,7 +3,7 @@ name:
   last: Yuba
 about: Designer e desenvolvedor de aplicações web com foco em desenvolvimento frontend e documentação
 position: Atualmente trabalho na promoção de dados abertos e no desenvolvimento de aplicações de participação social de projetos públicos urbanísticos da cidade de São Paulo.
-tags: Design, ux, frontend, open-source, javascript, python
+tags: Design, ui, frontend, open-source, javascript, python
 
 birth:
   year: 1985
@@ -101,7 +101,7 @@ projects:
 - name: API Geosampa
   platform: Vue, vuepress, json-server
   description: Proposta de API do portal de dados geográficos do município de Sâo Paulo. 2º lugar em hackathona (17 equipes)
-  display: documentação
+  display: notícia
   url: https://gestaourbana.prefeitura.sp.gov.br/noticias/projeto-vencedor-da-hackatona-geosampa-propoe-inovacao-tecnologica-a-partir-de-construcoes-na-capital/
   repo: https://github.com/yubathom/api-geosampa
 
