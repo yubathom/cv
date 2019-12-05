@@ -85,9 +85,9 @@ opensource:
 
 - name: São Paulo Urban Management API
   platform: Postman, php com OOP, open api
-  description: A REST API produced during the participatory process of the Municipality of São Paulo. This API has attended public consultations of various organizations of the municipality, including SMC (Culture), SMT (Transport), SMIT (Technology), SECOM (Communication) and SMDU (Urbanism). I contribute as maintainer of this project.
-  display: documentation (portuguese)
-  url: https://documenter.getpostman.com/view/4136141/S1ZxbpLD?version=latest
+  description: A REST API produced during the participatory process of the Municipality of São Paulo. This API has attended public consultations of various organizations of the municipality, including SMC (Culture), SMT (Transport), SMIT (Technology), SECOM (Communication) and SMDU (Urbanism). I contribute as maintainer of this project. This project was awarded by the IAB-SP 2019 (Brazillian Architecture Institute of São Paulo) awards at the category of 'Technology Platforms and Supports'.
+  display: news (portuguese)
+  url: https://gestaourbana.prefeitura.sp.gov.br/noticias/plataforma-participe-vence-premiacao-iabsp-2019/
   repo: https://github.com/spurb/consultas-publicas-backend
 
 projects:

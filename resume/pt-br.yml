@@ -85,9 +85,9 @@ opensource:
 
 - name: API Gestão Urbana SP
   platform: Postman, php com OOP, open api
-  description: API REST de contribuições de arquivos produzidos durante o processo participativo do Município de São Paulo. A api tem atendido a consultas públicas de diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo). Contribuo como mantenedor deste projeto.
-  display: documentação
-  url: https://documenter.getpostman.com/view/4136141/S1ZxbpLD?version=latest
+  description: API REST de contribuições de arquivos produzidos durante o processo participativo do Município de São Paulo. A api tem atendido a consultas públicas de diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo). Contribuo como mantenedor deste projeto. Projeto premiado pelo IAB-SP 2019 na categoria 'Plataformas e Suportes Tecnológicos'.
+  display: notícia
+  url: https://gestaourbana.prefeitura.sp.gov.br/noticias/plataforma-participe-vence-premiacao-iabsp-2019/
   repo: https://github.com/spurb/consultas-publicas-backend
 
 projects:
