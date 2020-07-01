@@ -1,9 +1,3 @@
-// 0. Variables
-// 1. Base
-// 2. Layout
-// 3. Module
-
-// 0. Variables
 $grotesk: 'Roboto', 'Helvetica', Arial, sans-serif;
 $serif: 'Georgia', serif;
 $darkwhite: #BDBDBD;
@@ -12,7 +6,6 @@ $darkgray: #4F4F4F;
 $cyan: #2D9CDB;
 $one-column: 672px;
 
-// 1. Base
 * { box-sizing: border-box; }
 html { margin: 0; padding: 0; }
 body {
@@ -38,7 +31,7 @@ li {
 	padding: 0;
 	border: 0;
 }
-a { text-decoration: non; }
+a { text-decoration: none; }
 
 button {
 	background: none repeat scroll 0 0 transparent;
@@ -56,7 +49,6 @@ button {
 }
 
 
-// 2. Layout
 #nav {
 	display: flex;
 	flex-direction: row;
@@ -71,12 +63,12 @@ button {
 }
 
 #cv {
+	max-width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 1.5rem;
 }
 
-// 3. Module
 #nav {
 	li {
 		font-family: $grotesk;
@@ -92,7 +84,7 @@ button {
 	margin-bottom: 1rem;
 	border-top: 12px solid $darkgray;
 	h2, h3  {
-		font-style: $grotesk;
+		font-family: $grotesk;
 		font-weight: normal;
 		font-size: 1.5rem
 	}
@@ -153,6 +145,8 @@ button {
 }
 
 #actions {
+	max-width: 1300px;
+	margin: auto;
 	padding: 1.5rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
