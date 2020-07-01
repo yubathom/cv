@@ -16,111 +16,105 @@ skills:
 - name: Figma
   level: 80
   group: design
+- name: Photoshop
+  level: 80
+  group: design
 - name: Illustrator
   level: 80
   group: design
-- name: Indesign
-  level: 80
-  group: design
-- name: Protopie
-  level: 60
-  group: design
-- name: Photoshop
-  level: 60
-  group: design
 # front
 - name: Javascript
-  level: 80
-  group: front
-- name: Vuejs
   level: 80
   group: front
 - name: HTML
   level: 80
   group: front
 - name: CSS
-  level: 75
+  level: 80
   group: front
-- name: SMACSS
-  level: 65
-  group: front
-- name: BEM
-  level: 50
+- name: Vuejs
+  level: 80
   group: front
 - name: Angular
   level: 20
   group: front
+- name: React
+  level: 10
+  group: front
 # tooling
-- name: Cypress
-  level: 80
-  group: tooling
-- name: Postman
-  level: 80
-  group: tooling
-- name: SASS
-  level: 60
+- name: Webpack
+  level: 70
   group: tooling
 - name: Babel
+  level: 70
+  group: tooling
+- name: SCSS/SASS
+  level: 70
+  group: tooling
+- name: Rollup
   level: 60
   group: tooling
 - name: Parcel
   level: 60
   group: tooling
+- name: Postman
+  level: 50
+  group: tooling
 - name: Mocha
-  level: 40
-  group: tooling
-- name: Gulp
-  level: 40
-  group: tooling
-- name: Webpack
   level: 40
   group: tooling
 - name: Chai
   level: 20
   group: tooling
 # devpattern
+- name: MVC
+  level: 80
+  group: devpattern
+- name: BEMSCSS
+  level: 60
+  group: devpattern
+- name: SMACSS
+  level: 60
+  group: devpattern
 - name: TDD
   level: 60
   group: devpattern
-- name: MVC
+- name: SOLID
   level: 60
-  group: devpattern
-- name: DRY
-  level: 50
   group: devpattern
 # databases
 - name: MySQL
-  level: 60
+  level: 80
   group: databases
 - name: PostGreSQL
-  level: 40
+  level: 50
   group: databases
 # backend
 - name: Nodejs
-  level: 60
+  level: 80
   group: backend
 - name: Wordpress
-  level: 50
+  level: 60
   group: backend
 - name: Bash
   level: 40
   group: backend
-- name: Python
-  level: 60
-  group: backend
 - name: PHP
-  level: 50
+  level: 40
   group: backend
-- name: Firebase
-  level: 20
-  group: backend
-- name: AWS
+- name: Python
   level: 20
   group: backend
 # infra
 - name: Git
   level: 80
   group: infra
+- name: Firebase
+  level: 20
+  group: backend
+- name: AWS
+  level: 50
+  group: backend
 - name: Travis-CI
   level: 60
   group: infra
@@ -131,7 +125,7 @@ skills:
   level: 40
   group: infra
 - name: Docker
-  level: 20
+  level: 40
   group: infra
 - name: Netlifly-CI
   level: 20

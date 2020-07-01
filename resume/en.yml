@@ -1,9 +1,9 @@
 name:
   first: Thomas
   last: Yuba
-about: Designer and developer of web applications especialized on frontend development and documentation
+about: UI Designer and web developer currently working on frontend development with vuejs and backend com with express and nodejs
 position: Currently working advocating in government open data policies and in the development of web application for civic participation platforms in public urban planning support at São Paulo city.
-tags: Design, ui, frontend, open-source, javascript, python
+tags: Design, ui, frontend, open-source, javascript
 
 birth:
   year: 1985
@@ -84,19 +84,40 @@ opensource:
   repo: https://github.com/liyasthomas/postwoman
 
 - name: São Paulo Urban Management API
-  platform: Postman, php com OOP, open api
+  platform:  Rest api, php
   description: A REST API produced during the participatory process of the Municipality of São Paulo. This API has attended public consultations of various organizations of the municipality, including SMC (Culture), SMT (Transport), SMIT (Technology), SECOM (Communication) and SMDU (Urbanism). I contribute as maintainer of this project. This project was awarded by the IAB-SP 2019 (Brazillian Architecture Institute of São Paulo) awards at the category of 'Technology Platforms and Supports'.
   display: news (portuguese)
   url: https://gestaourbana.prefeitura.sp.gov.br/noticias/plataforma-participe-vence-premiacao-iabsp-2019/
   repo: https://github.com/spurb/consultas-publicas-backend
 
-projects:
 - name: São Paulo Participatory web app
   platform: Vue, cypress, netlifly-ci
   description: Social participation site of the city of São Paulo, initially created for regulatory framework projects (PIU), but adopted for various organizations of the municipality.
   display: participe
   url: https://participe.gestaourbana.prefeitura.sp.gov.br
   repo: https://github.com/SPURB/participe
+
+projects:
+- name: Productivity manager
+  platform: Nodejs, express, rest api, vue, nuxt
+  description: Personnel management and work reports of São Paulo Urbanismo
+  display: apropriacaohoras
+  url: https://spurb.github.io/apropriacaohoras/login
+  repo: https://github.com/spurb/apropriacaohoras
+
+- name: Certificates of Additional Construction Potential dashboard
+  platform: C#, rest api, vue, nuxt
+  description: São Paulo city land tax called CEPACS (certificates of additional construction potential) monitoring system
+  display: relatórios
+  url: https://spurb.github.io/relatorios
+  repo: https://github.com/spurb/outorga-moderacao
+
+- name: São Paulo city Urban Intervention Projects dashboard
+  platform: Nodejs, express, rest api, vue, open layers 
+  description: Monitoring system and dashboard of public urban projects (Decree nº 56.901, march 2016)
+  display: gestaourbana/piu-monitoramento
+  url: https://gestaourbana.prefeitura.sp.gov.br/piu-monitoramento
+  repo: https://github.com/spurb/piu-monitoramento
 
 - name: Geosampa API
   platform: Vue, vuepress, json-server
