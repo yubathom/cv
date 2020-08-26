@@ -47,7 +47,7 @@ experience:
   position: Founder. Frontend, ux, ui, branding
   timeperiod: March 2008 - September de 2014
   description: UX, UI, prototype development. Frontend, branding and comunication consultancy.
-  website: https://mote.bz
+  website: https://www.behance.net/motebz
 
 - company: Abril (publishing company)
   position: Trainee. Frontend, ui
@@ -76,12 +76,12 @@ education:
 knowledge: Desenvolvedor javascript e python com proeficiência em meios de representação e prototipação digital.
 
 opensource:
-- name: postwoman.io
+- name: hoppscotch.io
   platform: Nuxt, vue, cypress, travis-ci
-  description: API request builder. A free open source webapp alternative to Postman. It helps create requests for API's. I contribute as a collaborator of this project.
-  display: postwoman
-  url: https://postwoman.io
-  repo: https://github.com/liyasthomas/postwoman
+  description: A free open source webapp API request builder. It helps create requests for API's. I contribute as a collaborator of this project.
+  display: hoppscotch
+  url: https://hoppscotch.io
+  repo: https://github.com/hoppscotch/hoppscotch
 
 - name: São Paulo Urban Management API
   platform:  Rest api, php
@@ -95,22 +95,29 @@ opensource:
   description: Social participation site of the city of São Paulo, initially created for regulatory framework projects (PIU), but adopted for various organizations of the municipality.
   display: participe
   url: https://participe.gestaourbana.prefeitura.sp.gov.br
-  repo: https://github.com/SPURB/participe
+  repo: https://github.com/spurb/participe
 
 projects:
+- name: São Paulo Urbanismo data services
+  platform: Vue 3
+  description: Systematization of data produced by São Paulo Urbanism in public API's and data services
+  display: servicos.spurbanismo
+  url: https://servicos.spurbanismo.sp.gov.br
+  repo: https://github.com/SPURB/servicos.spurbanismo.sp.gov.br
+
 - name: Productivity manager
   platform: Nodejs, express, rest api, vue, nuxt
   description: Personnel management and work reports of São Paulo Urbanismo
   display: apropriacaohoras
-  url: https://spurb.github.io/apropriacaohoras/login
+  url: https://servicos.spurbanismo.sp.gov.br/apropriacaohoras/faq
   repo: https://github.com/spurb/apropriacaohoras
 
 - name: Certificates of Additional Construction Potential dashboard
   platform: C#, rest api, vue, nuxt
   description: São Paulo city land tax called CEPACS (certificates of additional construction potential) monitoring system
-  display: relatórios
-  url: https://spurb.github.io/relatorios
-  repo: https://github.com/spurb/outorga-moderacao
+  display: cepac
+  url: https://servicos.spurbanismo.sp.gov.br/cepac/
+  repo: https://github.com/spurb/cepac
 
 - name: São Paulo city Urban Intervention Projects dashboard
   platform: Nodejs, express, rest api, vue, open layers 
@@ -120,7 +127,7 @@ projects:
   repo: https://github.com/spurb/piu-monitoramento
 
 - name: Geosampa API
-  platform: Vue, vuepress, json-server
+  platform: Vue, vuepress
   description: API proposal of the geographic data portal of the municipality of São Paulo. 2nd place in hackathona (17 teams)
   display: news
   url: https://gestaourbana.prefeitura.sp.gov.br/noticias/projeto-vencedor-da-hackatona-geosampa-propoe-inovacao-tecnologica-a-partir-de-construcoes-na-capital/

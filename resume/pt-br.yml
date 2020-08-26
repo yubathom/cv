@@ -47,7 +47,7 @@ experience:
   position: Sócio. Frontend, ux, ui, branding
   timeperiod: Março de 2008 - Setembro de 2014
   description: Desenvolvimento de protótipos e entregáveis UX/UI. Desenvolvimento frontend. Branding e consultoria de comunicação
-  website: https://mote.bz
+  website: https://www.behance.net/motebz
 
 - company: Editora Abril
   position: Trainee. Frontend, ui
@@ -76,12 +76,12 @@ education:
 knowledge: Desenvolvedor javascript e python com proeficiência em meios de representação e prototipação digital.
 
 opensource:
-- name: postwoman.io
+- name: hoppscotch.io
   platform: Nuxt, vue
-  description: API request builder. Ajuda a criar requests para apis salvando tempo de desenvolvimento. Versão web open source do postman. Contribuo como colaborador deste projeto.
-  display: postwoman
-  url: https://postwoman.io
-  repo: https://github.com/liyasthomas/postwoman
+  description: Ajuda a criar requisições para apis salvando tempo de desenvolvimento Contribuo como colaborador deste projeto.
+  display: hoppscotch
+  url: https://hoppscotch.io
+  repo: https://github.com/hoppscotch/hoppscotch
 
 - name: API Gestão Urbana SP
   platform: Rest api, php
@@ -95,23 +95,30 @@ opensource:
   description: Site de participação social da prefeitura de São Paulo, a princípio criado para os projetos do marco regulatório, mas adotados para diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo)
   display: participe.prefeitura
   url: https://participe.gestaourbana.prefeitura.sp.gov.br
-  repo: https://github.com/SPURB/participe
+  repo: https://github.com/spurb/participe
 
 
 projects:
+- name: Serviços de dados da São Paulo Urbanismo
+  platform: Vue 3
+  description: Sistematização de dados produzidos pela São Paulo Urbanismo em API's públicas e serviços de dados
+  display: servicos.spurbanismo
+  url: https://servicos.spurbanismo.sp.gov.br
+  repo: https://github.com/SPURB/servicos.spurbanismo.sp.gov.br
+
 - name: Apropriação de horas
   platform: Nodejs, express, rest api, vue, nuxt
   description: Sistema de apropriação de horas trabalhadas, gerenciamento de pessoal e relatoria de trabalho da São Paulo Urbanismo
   display: apropriacaohoras
-  url: https://spurb.github.io/apropriacaohoras/login
+  url: https://servicos.spurbanismo.sp.gov.br/apropriacaohoras/faq
   repo: https://github.com/spurb/apropriacaohoras
 
 - name: Controle de CEPAC das Operação Urbanas Consorciadas 
   platform: C#, rest api, vue, nuxt
   description: Sistema de moderação do cadastro de interessados de CEPACs - Certificados de Potencial Adicional de Construção - das Operações Urbanas Consorciadas de São Paulo
-  display: relatórios
-  url: https://spurb.github.io/relatorios
-  repo: https://github.com/spurb/outorga-moderacao
+  display: cepac
+  url: https://servicos.spurbanismo.sp.gov.br/cepac/
+  repo: https://github.com/spurb/cepac
 
 - name: Monitoramento dos Projetos de Intervenção Urbana de São Paulo
   platform: Nodejs, express, rest api, vue, open layers 
