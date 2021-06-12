@@ -12,43 +12,34 @@ skills:
 - name: Espanhol
   level: 15
   group: languages
-  # design
-- name: Figma
-  level: 80
-  group: design
-- name: Photoshop
-  level: 80
-  group: design
-- name: Illustrator
-  level: 80
-  group: design
 # front
-- name: Javascript
+- name: Typescript/Javascript
   level: 80
   group: front
 - name: HTML
   level: 80
   group: front
-- name: CSS
+- name: CSS/SASS
   level: 80
   group: front
 - name: Vuejs
-  level: 80
-  group: front
-- name: Angular
-  level: 20
+  level: 70
   group: front
 - name: React
-  level: 10
+  level: 70
   group: front
+  # design
+- name: Figma
+  level: 60
+  group: design
+- name: Illustrator
+  level: 50
+  group: design
 # tooling
 - name: Webpack
-  level: 70
+  level: 80
   group: tooling
 - name: Babel
-  level: 70
-  group: tooling
-- name: SCSS/SASS
   level: 70
   group: tooling
 - name: Rollup
@@ -57,27 +48,12 @@ skills:
 - name: Parcel
   level: 60
   group: tooling
-- name: Postman
-  level: 50
-  group: tooling
-- name: Mocha
-  level: 40
-  group: tooling
-- name: Chai
-  level: 20
-  group: tooling
 # devpattern
-- name: MVC
+- name: TDD
   level: 80
   group: devpattern
-- name: BEMSCSS
-  level: 60
-  group: devpattern
-- name: SMACSS
-  level: 60
-  group: devpattern
-- name: TDD
-  level: 60
+- name: MVC
+  level: 80
   group: devpattern
 - name: SOLID
   level: 60
@@ -89,46 +65,40 @@ skills:
 - name: PostGreSQL
   level: 50
   group: databases
+- name: Mongodb
+  level: 50
+  group: databases
 # backend
 - name: Nodejs
   level: 80
   group: backend
-- name: Wordpress
-  level: 60
-  group: backend
 - name: Bash
   level: 40
   group: backend
-- name: PHP
-  level: 40
-  group: backend
 - name: Python
-  level: 20
+  level: 40
   group: backend
 # infra
 - name: Git
   level: 80
   group: infra
 - name: Firebase
-  level: 20
-  group: backend
+  level: 40
+  group: infra
 - name: AWS
-  level: 50
-  group: backend
+  level: 60
+  group: infra
 - name: Travis-CI
   level: 60
   group: infra
 - name: Nginx
   level: 40
   group: infra
-- name: Apache
-  level: 40
-  group: infra
 - name: Docker
   level: 40
   group: infra
 - name: Netlifly-CI
-  level: 20
+  level: 40
   group: infra
 
 skillgroupcollors:

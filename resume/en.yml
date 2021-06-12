@@ -1,9 +1,9 @@
 name:
   first: Thomas
   last: Yuba
-about: UI Designer and web developer currently working on frontend development with vuejs and backend com with express and nodejs
-position: Currently working advocating in government open data policies and in the development of web application for civic participation platforms in public urban planning support at São Paulo city.
-tags: Design, ui, frontend, open-source, javascript
+about: UI and Front-End developer
+position: Frontend specialist at McKinsey & Company
+tags: ui, frontend, open-source
 
 birth:
   year: 1985
@@ -39,7 +39,7 @@ actions:
 experience:
 - company: São Paulo Urbanism
   position: Consultant. Frontend, backend, ux, ui
-  timeperiod: Since October 2014 # Desde de Outubro de 2014
+  timeperiod: October 2014 - October 2020
   description: SPA/PWA frontend development. REST API's development, maintenance and documentation. Contribuitions to open source prjects. Tests and continuous integration setups for frontend projects.
   website: https://github.com/spurb
 

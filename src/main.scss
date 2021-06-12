@@ -141,7 +141,11 @@ button {
 		align-items: end;
 		svg { max-width: 175px }
 	}
-	.skills__item { height: 30px }
+	.skills__item {
+		height: 30px;
+		display: flex;
+		align-items: center;
+	}
 }
 
 #actions {
