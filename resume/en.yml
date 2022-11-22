@@ -2,7 +2,7 @@ name:
   first: Thomas
   last: Yuba
 about: UI and Front-End developer
-position: Frontend specialist at McKinsey & Company
+position: Software developer at McKinsey & Company
 tags: ui, frontend, open-source
 
 birth:
@@ -16,7 +16,7 @@ label:
   projects: Other projects
   years: years
   nacionality: Brazilian
-  skills: Skillset, tools and experience levels  # Qualificação por área, ferramenta e nível de experiência
+  skills: Skillset, tools and experience levels
   skillareas: Skillset
   education: Education
   design: Design
@@ -37,6 +37,12 @@ actions:
 - share: Copy this url
 
 experience:
+- company: Mckinsey & Company
+  position: Developer. Frontend, mobile, web and cloud solutions
+  timeperiod: October 2020 - Present
+  description: Frontend developer at McKinsey & Company. Working with React, React Native, NodeJS, AWS, and other technologies. Leading frontend team chapter for company clients engagements. Designing and developing company internal tools.
+  website: https://mckinsey.com
+
 - company: São Paulo Urbanism
   position: Consultant. Frontend, backend, ux, ui
   timeperiod: October 2014 - October 2020
@@ -143,7 +149,7 @@ projects:
 contact:
   email: yubathom@gmail.com
   phone: 55 11 99638 3168
-  street: Rua Frei Caneca
+  street: Rua Pelotas, 323 - apto 83
   city: São Paulo
   github: https://github.com/yubathom
   linkedin: https://linkedin.com/in/thomasyuba

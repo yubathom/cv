@@ -1,150 +1,155 @@
 name:
-  first: Thomas
-  last: Yuba
+    first: Thomas
+    last: Yuba
 about: UI and Front-End developer
 position: Frontend specialist at McKinsey & Company
 tags: ui, frontend, open-source
 
 birth:
-  year: 1985
-  month: 10
-  day: 21
-  location: São Paulo
+    year: 1985
+    month: 10
+    day: 21
+    location: São Paulo
 
 label:
-  experience: Experiência profissional
-  projects: Outros projetos
-  years: anos
-  nacionality: Brasileiro
-  skills: Qualificação por área, ferramenta e nível de experiência
-  skillareas: Áreas de atuação
-  education: Educação
-  design: Design
-  developmnent: Desenvolvimento
-  devpattern: Padrões de desenvolvimento
-  databases: Banco de dados
-  infra: Infraestrutura
-  languages: Idiomas
-  opensource: Projetos Open Source
-  about: sobre
-  cv: currículo
-  project: projeto
-  repository: repositório
+    experience: Experiência profissional
+    projects: Outros projetos
+    years: anos
+    nacionality: Brasileiro
+    skills: Qualificação por área, ferramenta e nível de experiência
+    skillareas: Áreas de atuação
+    education: Educação
+    design: Design
+    developmnent: Desenvolvimento
+    devpattern: Padrões de desenvolvimento
+    databases: Banco de dados
+    infra: Infraestrutura
+    languages: Idiomas
+    opensource: Projetos Open Source
+    about: sobre
+    cv: currículo
+    project: projeto
+    repository: repositório
 
 actions:
-- translate: English
-- print: Imprimir
-- share: Copie esta url
+    - translate: English
+    - print: Imprimir
+    - share: Copie esta url
 
 experience:
-- company: São Paulo Urbanismo
-  position: Assessor. Frontend, backend, ux, ui
-  timeperiod: Outubro de 2014 - Outubro de 2020
-  description: Desenvolvimento frontend de SPA/PWA's. Desenvolvimento, manutenção e documentação de API's. Contribuições em projetos open source, documentação, testes e rotinas de ci.
-  website: https://github.com/spurb
+    - company: Mckinsey & Company
+      position: Desenvolvedor. Frontend, mobile, web e cloud
+      timeperiod: October 2020 - Present
+      description: Desenvolvedor frontend na McKinsey & Company. Trabalhando com React, React Native, NodeJS, AWS, e outras tecnologias. Liderando times de frontend para clientes da empresa. Desenhando e desenvolvendo ferramentas internas da empresa.
+      website: https://mckinsey.com
 
-- company: mote.bz
-  position: Sócio. Frontend, ux, ui, branding
-  timeperiod: Março de 2008 - Setembro de 2014
-  description: Desenvolvimento de protótipos e entregáveis UX/UI. Desenvolvimento frontend. Branding e consultoria de comunicação
-  website: https://www.behance.net/motebz
+    - company: São Paulo Urbanismo
+      position: Assessor. Frontend, backend, ux, ui
+      timeperiod: Outubro de 2014 - Outubro de 2020
+      description: Desenvolvimento frontend de SPA/PWA's. Desenvolvimento, manutenção e documentação de API's. Contribuições em projetos open source, documentação, testes e rotinas de ci.
+      website: https://github.com/spurb
 
-- company: Editora Abril
-  position: Trainee. Frontend, ui
-  timeperiod: Março de 2007 - Março de 2008
-  description: Desenvolvimento de aplicações web. Desenvolvimento de elementos de interface
-  website: https://abril.com.br
+    - company: mote.bz
+      position: Sócio. Frontend, ux, ui, branding
+      timeperiod: Março de 2008 - Setembro de 2014
+      description: Desenvolvimento de protótipos e entregáveis UX/UI. Desenvolvimento frontend. Branding e consultoria de comunicação
+      website: https://www.behance.net/motebz
+
+    - company: Editora Abril
+      position: Trainee. Frontend, ui
+      timeperiod: Março de 2007 - Março de 2008
+      description: Desenvolvimento de aplicações web. Desenvolvimento de elementos de interface
+      website: https://abril.com.br
 
 education:
-- degree: Experiência do usuário em plataformas digitais
-  timeperiod: Março de 2019 - Julho de 2019
-  description: Curso de extensão em experiência do usuário (UX) em plataformas digitais
-  institution: Pontífica Universidade Católica de São Paulo (PUC-SP)
+    - degree: Experiência do usuário em plataformas digitais
+      timeperiod: Março de 2019 - Julho de 2019
+      description: Curso de extensão em experiência do usuário (UX) em plataformas digitais
+      institution: Pontífica Universidade Católica de São Paulo (PUC-SP)
 
-- degree: Design, desenho industrial, programação visual
-  timeperiod: Março de 2006 - Julho 2011
-  description: Bacharelado em Design
-  institution: Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP)
-  website: http://www.fau.usp.br/graduacao/design
+    - degree: Design, desenho industrial, programação visual
+      timeperiod: Março de 2006 - Julho 2011
+      description: Bacharelado em Design
+      institution: Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP)
+      website: http://www.fau.usp.br/graduacao/design
 
-- degree: Design da Comunicação
-  timeperiod: Março 2010 - Março 2011
-  description: Intercâmbio acadêmico
-  institution: Faculdade de Belas Artes da Universidade do Porto (FBAUP)
-  website: https://www.fba.up.pt
+    - degree: Design da Comunicação
+      timeperiod: Março 2010 - Março 2011
+      description: Intercâmbio acadêmico
+      institution: Faculdade de Belas Artes da Universidade do Porto (FBAUP)
+      website: https://www.fba.up.pt
 
 knowledge: Desenvolvedor javascript e python com proeficiência em meios de representação e prototipação digital.
 
 opensource:
-- name: hoppscotch.io
-  platform: Nuxt, vue
-  description: Ajuda a criar requisições para apis salvando tempo de desenvolvimento Contribuo como colaborador deste projeto.
-  display: hoppscotch
-  url: https://hoppscotch.io
-  repo: https://github.com/hoppscotch/hoppscotch
+    - name: hoppscotch.io
+      platform: Nuxt, vue
+      description: Ajuda a criar requisições para apis salvando tempo de desenvolvimento Contribuo como colaborador deste projeto.
+      display: hoppscotch
+      url: https://hoppscotch.io
+      repo: https://github.com/hoppscotch/hoppscotch
 
-- name: API Gestão Urbana SP
-  platform: Rest api, php
-  description: API REST de contribuições de arquivos produzidos durante o processo participativo do Município de São Paulo. A api tem atendido a consultas públicas de diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo). Contribuo como mantenedor deste projeto. Projeto premiado pelo IAB-SP 2019 na categoria 'Plataformas e Suportes Tecnológicos'.
-  display: notícia
-  url: https://gestaourbana.prefeitura.sp.gov.br/noticias/plataforma-participe-vence-premiacao-iabsp-2019/
-  repo: https://github.com/spurb/consultas-publicas-backend
+    - name: API Gestão Urbana SP
+      platform: Rest api, php
+      description: API REST de contribuições de arquivos produzidos durante o processo participativo do Município de São Paulo. A api tem atendido a consultas públicas de diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo). Contribuo como mantenedor deste projeto. Projeto premiado pelo IAB-SP 2019 na categoria 'Plataformas e Suportes Tecnológicos'.
+      display: notícia
+      url: https://gestaourbana.prefeitura.sp.gov.br/noticias/plataforma-participe-vence-premiacao-iabsp-2019/
+      repo: https://github.com/spurb/consultas-publicas-backend
 
-- name: Participe Gestão Urbana
-  platform: Vue, cypress, netlifly-ci
-  description: Site de participação social da prefeitura de São Paulo, a princípio criado para os projetos do marco regulatório, mas adotados para diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo)
-  display: participe.prefeitura
-  url: https://participe.gestaourbana.prefeitura.sp.gov.br
-  repo: https://github.com/spurb/participe
-
+    - name: Participe Gestão Urbana
+      platform: Vue, cypress, netlifly-ci
+      description: Site de participação social da prefeitura de São Paulo, a princípio criado para os projetos do marco regulatório, mas adotados para diversas secretarias e órgãos do município, dentre elas SMC (Cultura), SMT (Transportes), SMIT (Tecnologia), SECOM (Comunicação) e SMDU (Urbanismo)
+      display: participe.prefeitura
+      url: https://participe.gestaourbana.prefeitura.sp.gov.br
+      repo: https://github.com/spurb/participe
 
 projects:
-- name: Serviços de dados da São Paulo Urbanismo
-  platform: Vue 3
-  description: Sistematização de dados produzidos pela São Paulo Urbanismo em API's públicas e serviços de dados
-  display: servicos.spurbanismo
-  url: https://servicos.spurbanismo.sp.gov.br
-  repo: https://github.com/SPURB/servicos.spurbanismo.sp.gov.br
+    - name: Serviços de dados da São Paulo Urbanismo
+      platform: Vue 3
+      description: Sistematização de dados produzidos pela São Paulo Urbanismo em API's públicas e serviços de dados
+      display: servicos.spurbanismo
+      url: https://servicos.spurbanismo.sp.gov.br
+      repo: https://github.com/SPURB/servicos.spurbanismo.sp.gov.br
 
-- name: Apropriação de horas
-  platform: Nodejs, express, rest api, vue, nuxt
-  description: Sistema de apropriação de horas trabalhadas, gerenciamento de pessoal e relatoria de trabalho da São Paulo Urbanismo
-  display: apropriacaohoras
-  url: https://servicos.spurbanismo.sp.gov.br/apropriacaohoras/faq
-  repo: https://github.com/spurb/apropriacaohoras
+    - name: Apropriação de horas
+      platform: Nodejs, express, rest api, vue, nuxt
+      description: Sistema de apropriação de horas trabalhadas, gerenciamento de pessoal e relatoria de trabalho da São Paulo Urbanismo
+      display: apropriacaohoras
+      url: https://servicos.spurbanismo.sp.gov.br/apropriacaohoras/faq
+      repo: https://github.com/spurb/apropriacaohoras
 
-- name: Controle de CEPAC das Operação Urbanas Consorciadas 
-  platform: C#, rest api, vue, nuxt
-  description: Sistema de moderação do cadastro de interessados de CEPACs - Certificados de Potencial Adicional de Construção - das Operações Urbanas Consorciadas de São Paulo
-  display: cepac
-  url: https://servicos.spurbanismo.sp.gov.br/cepac/
-  repo: https://github.com/spurb/cepac
+    - name: Controle de CEPAC das Operação Urbanas Consorciadas
+      platform: C#, rest api, vue, nuxt
+      description: Sistema de moderação do cadastro de interessados de CEPACs - Certificados de Potencial Adicional de Construção - das Operações Urbanas Consorciadas de São Paulo
+      display: cepac
+      url: https://servicos.spurbanismo.sp.gov.br/cepac/
+      repo: https://github.com/spurb/cepac
 
-- name: Monitoramento dos Projetos de Intervenção Urbana de São Paulo
-  platform: Nodejs, express, rest api, vue, open layers 
-  description: Sistema de acompanhamento dos Projetos públicos de intervenção urbana da cidade de São Paulo (decreto nº 56.901, de 30 de março de 2016)
-  display: gestaourbana/piu-monitoramento
-  url: https://gestaourbana.prefeitura.sp.gov.br/piu-monitoramento
-  repo: https://github.com/spurb/piu-monitoramento
+    - name: Monitoramento dos Projetos de Intervenção Urbana de São Paulo
+      platform: Nodejs, express, rest api, vue, open layers
+      description: Sistema de acompanhamento dos Projetos públicos de intervenção urbana da cidade de São Paulo (decreto nº 56.901, de 30 de março de 2016)
+      display: gestaourbana/piu-monitoramento
+      url: https://gestaourbana.prefeitura.sp.gov.br/piu-monitoramento
+      repo: https://github.com/spurb/piu-monitoramento
 
-- name: API Geosampa
-  platform: Vue, vuepress
-  description: Proposta de API do portal de dados geográficos do município de Sâo Paulo. 2º lugar em hackathona (17 equipes)
-  display: notícia
-  url: https://gestaourbana.prefeitura.sp.gov.br/noticias/projeto-vencedor-da-hackatona-geosampa-propoe-inovacao-tecnologica-a-partir-de-construcoes-na-capital/
-  repo: https://github.com/yubathom/api-geosampa
+    - name: API Geosampa
+      platform: Vue, vuepress
+      description: Proposta de API do portal de dados geográficos do município de Sâo Paulo. 2º lugar em hackathona (17 equipes)
+      display: notícia
+      url: https://gestaourbana.prefeitura.sp.gov.br/noticias/projeto-vencedor-da-hackatona-geosampa-propoe-inovacao-tecnologica-a-partir-de-construcoes-na-capital/
+      repo: https://github.com/yubathom/api-geosampa
 
-- name: Mapa da consulta PIU Setor Central
-  platform: Nodejs, open layers
-  description: Mapa interativo da consulta pública do Projeto de Intervenção Urbana Centro
-  display: mapas/piu-setor-central
-  url: https://participe.gestaourbana.prefeitura.sp.gov.br/mapas/piu-setor-central-2/
-  repo: https://github.com/SPURB/mapa-consulta-setor-central
+    - name: Mapa da consulta PIU Setor Central
+      platform: Nodejs, open layers
+      description: Mapa interativo da consulta pública do Projeto de Intervenção Urbana Centro
+      display: mapas/piu-setor-central
+      url: https://participe.gestaourbana.prefeitura.sp.gov.br/mapas/piu-setor-central-2/
+      repo: https://github.com/SPURB/mapa-consulta-setor-central
 
 contact:
-  email: yubathom@gmail.com
-  phone: 55 11 99638 3168
-  street: Rua Frei Caneca
-  city: São Paulo
-  github: https://github.com/yubathom
-  linkedin: https://linkedin.com/in/thomasyuba
+    email: yubathom@gmail.com
+    phone: 55 11 99638 3168
+    street: Rua Frei Caneca
+    city: São Paulo
+    github: https://github.com/yubathom
+    linkedin: https://linkedin.com/in/thomasyuba

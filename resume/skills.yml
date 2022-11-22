@@ -28,6 +28,9 @@ skills:
 - name: React
   level: 70
   group: front
+- name: Angularjs
+  level: 50
+  group: front
   # design
 - name: Figma
   level: 60
@@ -36,6 +39,9 @@ skills:
   level: 50
   group: design
 # tooling
+- name: Vite
+  level: 80
+  group: tooling
 - name: Webpack
   level: 80
   group: tooling
@@ -48,6 +54,9 @@ skills:
 - name: Parcel
   level: 60
   group: tooling
+- name: Rust
+  level: 40
+  group: tooling
 # devpattern
 - name: TDD
   level: 80
@@ -59,14 +68,11 @@ skills:
   level: 60
   group: devpattern
 # databases
-- name: MySQL
-  level: 80
+- name: SQL based
+  level: 70
   group: databases
-- name: PostGreSQL
-  level: 50
-  group: databases
-- name: Mongodb
-  level: 50
+- name: NoSQL based
+  level: 70
   group: databases
 # backend
 - name: Nodejs
@@ -76,28 +82,25 @@ skills:
   level: 40
   group: backend
 - name: Python
-  level: 40
+  level: 70
   group: backend
 # infra
+- name: AWS
+  level: 80
+  group: infra
 - name: Git
   level: 80
   group: infra
-- name: Firebase
-  level: 40
-  group: infra
-- name: AWS
-  level: 60
-  group: infra
-- name: Travis-CI
-  level: 60
-  group: infra
-- name: Nginx
-  level: 40
-  group: infra
 - name: Docker
+  level: 70
+  group: infra
+- name: Vercel
+  level: 50
+  group: infra
+- name: Netlifly
   level: 40
   group: infra
-- name: Netlifly-CI
+- name: Firebase
   level: 40
   group: infra
 
